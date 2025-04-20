@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Peças</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4faff; color: #000; margin: 0; }
+        header { background-color: #004aad; padding: 20px; text-align: center; }
+        header img { max-height: 80px; }
+        .carrossel { display: flex; overflow-x: auto; scroll-behavior: smooth; }
+        .carrossel img { width: 100%; max-width: 33.33%; height: auto; }
+        .produtos { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; gap: 10px; }
+        .produtos img { width: 200px; border-radius: 10px; }
+        .whatsapp { text-align: center; margin: 20px; }
+        .whatsapp a { background-color: #25D366; color: white; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; }
+        .estrelas { text-align: center; font-size: 24px; color: gold; margin: 10px 0; }
+        footer { text-align: center; padding: 20px; background-color: #004aad; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.jpg" alt="Logo">
+    </header>
+
+    <div class="carrossel">
+        <img src="assets/carrossel1.jpg" alt="Carrossel 1">
+        <img src="assets/carrossel2.jpg" alt="Carrossel 2">
+    </div>
+
+    <div class="estrelas">★★★★★</div>
+
+    <section class="produtos">
+        <img src="assets/produto1.jpg" alt="Produto 1"><img src="assets/produto2.jpg" alt="Produto 2"><img src="assets/produto3.jpg" alt="Produto 3"><img src="assets/produto4.jpg" alt="Produto 4"><img src="assets/produto5.jpg" alt="Produto 5"><img src="assets/produto6.jpg" alt="Produto 6">
+    </section>
+
+    <div class="whatsapp">
+        <a href="https://wa.me/SEUNUMERO" target="_blank">Fale conosco no WhatsApp</a>
+    </div>
+
+    <footer>
+        CNPJ: 30.817.398/0803-28
+    </footer>
+</body>
+</html>
